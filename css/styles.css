@@ -1,3 +1,68 @@
-body {
-  font-family:systems-ui, sans-serif;
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+/* Base styles */
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Header */
+.site-header {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background-color: #f1f5f9;
+}
+
+/* Features */
+.features {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature {
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+/* CTA */
+.cta {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #e0e7ff;
+}
+
+/* Footer */
+.site-footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+  }
+}
+
