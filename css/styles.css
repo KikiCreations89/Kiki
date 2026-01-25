@@ -81,18 +81,6 @@ body {
   font-size: 0.9rem;
   color: #444;
 }
-
-/* Desktop layout */
-@media (min-width: 768px) {
-  .features {
-    flex-direction: row;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .site-header {
-    padding: 4rem 1rem;
-  }
   
 /* Blog list */
 .blog-list {
@@ -134,7 +122,17 @@ body {
   background: #f8fafc;
   border-radius: 8px;
 }
+/* Desktop layout */
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 
+  .site-header {
+    padding: 4rem 1rem;
+  }
 /* Desktop layout */
    .post-layout {
     flex-direction: row;
