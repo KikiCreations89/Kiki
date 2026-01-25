@@ -109,11 +109,19 @@ body {
 .post-content p {
   margin-bottom: 1rem;
   line-height: 1.8;
+  max-width: 65ch;
 }
 .sidebar {
   padding: 1.5rem;
   background: #f8fafc;
   border-radius: 8px;
+}
+.sidebar h2 {
+  margin-bottom: 0.5rem;
+}
+.sidebar p {
+  font-size: 0.95rem;
+  color: #555;
 }
 
 /* Desktop layout */
