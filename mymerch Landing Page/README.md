@@ -14,5 +14,5 @@ A responsive merch store landing page built with HTML and CSS.
 - Grid
 
 ## Live Demo
-https://yourusername.github.io/mymerch
+https://KikiCreations89.github.io/mymerch
 
