@@ -9,6 +9,311 @@
   /css
       styles.css        ← main portfolio CSS
 
+/* ===========================
+   GLOBAL RESET & BASE
+   =========================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===========================
+   BUTTONS (Unified)
+   =========================== */
+.btn, button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #1e4fd8;
+  transform: translateY(-2px);
+}
+
+/* Hero / MyMerch buttons */
+.hero button,
+.product-card button {
+  background-color: #111;
+  color: white;
+}
+
+.hero button:hover,
+.product-card button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   HEADER
+   =========================== */
+.site-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+  color: white;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-header p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAVIGATION */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #111;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #111;
+    width: 200px;
+  }
+
+  .navbar nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* ===========================
+   FEATURES / MAIN SECTIONS
+   =========================== */
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.feature {
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.feature:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.feature h2 {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+/* ===========================
+   CTA SECTION
+   =========================== */
+.cta {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: 2rem;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   BLOG
+   =========================== */
+.blog-list {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+}
+
+.post-preview h2 a {
+  color: #2563eb;
+}
+
+.post-preview h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem 1rem;
+}
+
+.post-content {
+  max-width: 700px;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  max-width: 65ch;
+}
+
+.sidebar {
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.sidebar h2 {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .post-layout {
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+
+  .post-content {
+    flex: 3;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
+}
+
+/* ===========================
+   MYMERCH PROJECT
+   =========================== */
+.mymerch .hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #f4f4f4;
+}
+
+.mymerch .products {
+  padding: 2rem 1rem;
+}
+
+.mymerch .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.mymerch .product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mymerch .product-card img {
+  width: 100%;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+footer, .site-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* ===========================
+   MEDIA QUERIES
+   =========================== */
+@media (max-width: 768px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .mymerch .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
