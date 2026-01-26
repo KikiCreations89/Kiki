@@ -1,29 +1,21 @@
-# Kiki Portfolio
-# Hi, I'm Kimmy 👋
+## Hi, I'm Kimmy 👋
 
-I'm an aspiring front-end developer focused on building responsive, accessible websites using HTML and CSS.
+I'm an aspiring front-end developer focused on building clean, responsive websites using HTML and CSS.
 
-# Skills
-- HTML5 (semantic, accessible markup)
-- CSS3 (Flexbox, Grid, mobile-first)
+### Skills
+- HTML5 (semantic markup, accessibility basics)
+- CSS3 (Flexbox, Grid, mobile-first layouts)
 - Responsive design fundamentals
 
-# Currently Learning
-- Advanced responsive layouts
+### Projects
+- Responsive blog layout
+- MyMerch store landing page
+- Portfolio website
+
+### Currently Learning
+- Advanced responsive design
 - JavaScript fundamentals
 
-🌐 Portfolio: https://kikicreations89.github.io/kikicreations89
+🌐 Portfolio: https://YOUR-PORTFOLIO-URL  
+💻 GitHub: https://github.com/KikiCreations89
 
-# Features
-- Mobile-first responsive layout
-- Semantic HTML structure
-- Flexbox / Grid for layout
-- Clean, readable typography
-
-# What I Learned
-- Structuring layouts for different screen sizes
-- Writing maintainable CSS
-- Improving spacing and readability
-
-# Live Demo
-[View Live Site](LINK_HERE)
