@@ -1,19 +1,8 @@
-/my-portfolio
-  index.html            ← homepage
-  styles.css
-/my-portfolio-projects
-  projects.html         ← projects page (lists all projects)
-  styles.css
-/responsive-blog-page
-  blog.html             ← Project 2 article page (or blog homepage)
-  styles.css
-/understanding-flexbox
-  post.html
-  /mymerch-landing-page     ← Project 3 folder
-      index.html        ← MyMerch project live page
-      styles.css
-      script.js
-/sample-landing-page
-      index.html
-      styles.css
+index.html
+styles.css
+my-portfolio-projects/
+responsive-blog-page/
+mymerch-landing-page/
+sample-landing-page/
+understanding-flexbox/
 
