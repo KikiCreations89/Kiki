@@ -16,30 +16,52 @@ a {
 }
 
 /* Header */
-.site-header {
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: #1d4ed8;
-  color: #fff;
+.store-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #1d4ed8;
+  color: white;
+  position: relative;
 }
-.site-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+
+/* Hamburger button */
+.hamburger {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
-.site-header p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+
+/* Nav menu hidden by default */
+#nav-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 1rem;
+  background: white;
+  color: #111;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  overflow: hidden;
 }
-.nav-bar .btn {
-  padding: 0.75rem 1.5rem;
-  background-color: #fff;
-  color: #1d4ed8;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: background 0.3s;
+
+/* Links inside menu */
+#nav-menu a {
+  display: block;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #eee;
 }
-.nav-bar .btn:hover {
-  background-color: #e0e7ff;
+
+#nav-menu a:hover {
+  background: #f1f5f9;
+}
+
+/* Show menu when toggled */
+#nav-menu.show {
+  display: block;
 }
 
 /* Hero Section */
