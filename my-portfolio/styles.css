@@ -1,0 +1,10 @@
+/my-portfolio
+  index.html            ← homepage
+  projects.html         ← projects page (lists all projects)
+  blog.html             ← Project 2 article page (or blog homepage)
+  /mymerch-landing-page     ← Project 3 folder
+      index.html        ← MyMerch project live page
+      styles.css
+      script.js
+  /css
+      styles.css        ← main portfolio CSS
