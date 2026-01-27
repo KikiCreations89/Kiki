@@ -1,8 +1,18 @@
-index.html
-styles.css
-my-portfolio-projects/
-responsive-blog-page/
-mymerch-landing-page/
-sample-landing-page/
-understanding-flexbox/
+/index.html                ← homepage at root
+/styles.css                ← homepage CSS at root
+/my-portfolio-projects/
+    projects.html          ← lists all projects
+/responsive-blog-page/
+    blog.html              ← Project 2 (blog homepage)
+    styles.css
+/understanding-flexbox/
+    post.html              ← Project 4 (Flexbox tutorial)
+    styles.css
+/mymerch-landing-page/
+    index.html             ← Project 3 live page
+    styles.css
+    script.js
+/sample-landing-page/
+    index.html
+    styles.css
 
