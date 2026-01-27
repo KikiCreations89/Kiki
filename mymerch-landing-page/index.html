@@ -72,32 +72,7 @@
 
   <!-- JS -->
   <script src="script.js"></script>
-  <script>
-    // Mobile menu toggle
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.getElementById('nav-menu');
-
-    menuToggle.addEventListener('click', () => {
-      navMenu.classList.toggle('show');
-    });
-
-    // Fade-in on scroll
-    const faders = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.2 });
-
-    faders.forEach(el => observer.observe(el));
-  </script>
-
+ 
 </body>
 </html>
-
-<-- Focused on responsive product layouts and mobile navigation menu to improve usability on smaller screens. -->
-  <-- Paid attention to spacing, touch targets, and clean structure to support accessibility and usability. -->
 
