@@ -1,79 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MyMerch</title>
-  <!-- Main Portfolio CSS -->
-  <link rel="stylesheet" href="../css/styles.css">
-  <!-- Optional: MyMerch-specific overrides -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="mymerch">
+<body>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <h1 class="logo">MyMerch</h1>
-     
-  <!-- Hamburger button -->
-  <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <header class="site-header">
+    <h1>MyMerch</h1>
+    <p>Simple merch. Clean design.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </header>
 
-  <!-- Navigation menu -->
-  <nav id="nav-menu">
-    <a href="#products">Shop</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-    <div class="cart-icon">
-  🛒 Cart: <span id="cart-count">0</span>
+  <main>
+    <section id="products" class="products reveal">
+      <h2>Featured Products</h2>
+
+      <div class="product-grid">
+  <article class="product-card">
+    <h3>T-Shirt</h3>
+    <p class="price">$25.00</p>
+    <p class="description">Soft cotton tee</p>
+    <button class="btn secondary">View</button>
+  </article>
+
+  <article class="product-card">
+    <h3>Hoodie</h3>
+    <p class="price">$55.00</p>
+    <p class="description">Cozy everyday wear</p>
+    <button class="btn secondary">View</button>
+  </article>
+
+  <article class="product-card">
+    <h3>Hat</h3>
+    <p class="price">$20.00</p>
+    <p class="description">Minimal & clean</p>
+    <button class="btn secondary">View</button>
+  </article>
 </div>
+    </section>
+  </main>
 
-</header>
-
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Fresh Merch, Clean Style</h2>
-    <p>Limited drops. Premium quality.</p>
-    <button>Shop Now</button>
-  </section>
-
-  <!-- Featured Products -->
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="product-grid">
-      <div class="product-card fade-in">
-        <img src="https://via.placeholder.com/300" alt="Classic T-Shirt">
-        <h3>Classic Tee</h3>
-        <p>$25.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="product-card fade-in">
-        <img src="https://via.placeholder.com/300" alt="Street Hoodie">
-        <h3>Street Hoodie</h3>
-        <p>$50.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="product-card fade-in">
-        <img src="https://via.placeholder.com/300" alt="Logo Cap">
-        <h3>Logo Cap</h3>
-        <p>$20.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 MyMerch. All rights reserved.</p>
+  <footer class="site-footer">
+    <p>© 2026 MyMerch</p>
   </footer>
 
-  <!-- JS -->
- <script src="script.js"></script>
-
- 
+  <script src="script.js"></script>
 </body>
 </html>
-<!-- Focused on responsive product layouts and mobile navigation -->
-<!-- Paid attention to spacing, touch targets, and accessibility -->
+
+
+
 
