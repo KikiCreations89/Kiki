@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kimmy Kitty | Personal Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Inter', system-ui, sans-serif; background:#f0f4f8; color:#1f2937; line-height:1.6; }
+
+/* Header */
+header.hero { text-align:center; padding:5rem 1rem; background: linear-gradient(135deg, #2563eb, #1e40af); color:#fff; }
+header.hero h1 { font-size:3rem; margin-bottom:0.5rem; }
+header.hero p { font-size:1.2rem; opacity:0.85; }
+
+/* Container */
+.container { max-width:1200px; margin:auto; padding:2rem 1rem; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+@media(min-width:768px){ .container{grid-template-columns: repeat(2,1fr);} }
+@media(min-width:1024px){ .container{grid-template-columns: repeat(3,1fr);} }
+
+/* Cards */
+.card { background:#fff; padding:2rem; border-radius:1rem; text-align:center; cursor:pointer; transition:transform 0.3s, box-shadow 0.3s; box-shadow:0 4px 8px rgba(0,0,0,0.05); }
+.card:hover { transform:translateY(-8px); box-shadow:0 20px 40px rgba(0,0,0,0.15); }
+.card h2 { margin-bottom:0.5rem; color:#1e3a8a; }
+.card p { color:#4b5563; }
+
+/* Reveal */
+.reveal { opacity:0; transform:translateY(30px); transition:opacity 0.6s ease-out, transform 0.6s ease-out; }
+.reveal.visible { opacity:1; transform:translateY(0); }
+
+/* Footer */
+footer { text-align:center; padding:2rem 1rem; color:#6b7280; font-size:0.9rem; }
+footer a { color:#2563eb; text-decoration:none; }
+footer a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+
+<header class="hero reveal">
+  <h1>Kimmy Kitty</h1>
+  <p>Frontend Developer | PSW | Mother</p>
+  <p>Combining care, organization, and tech skills to build interactive web experiences</p>
+</header>
+
+<main class="container">
+
+<div class="card reveal" onclick="window.location.href='my-projects/mymerch.html'">
+  <h2>MyMerch Store</h2>
+  <p>Product cards, pricing, add-to-cart interaction</p>
+</div>
+
+<div class="card reveal" onclick="window.location.href='my-projects/blog-page.html'">
+  <h2>Blog Page</h2>
+  <p>Reading progress bar & mobile menu</p>
+</div>
+
+<div class="card reveal" onclick="window.location.href='my-projects/landing-page.html'">
+  <h2>Landing Page</h2>
+  <p>Hero section, feature cards, scroll animation</p>
+</div>
+
+<div class="card reveal" onclick="window.location.href='my-projects/flexbox-demo.html'">
+  <h2>Flexbox Demo</h2>
+  <p>Layout fundamentals with hover effects</p>
+</div>
+
+</main>
+
+<footer class="reveal">
+  <p>© 2026 Kimmy Kitty | <a href="https://github.com/KikiCreations89" target="_blank">GitHub</a></p>
+</footer>
+
+<script>
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){ entry.target.classList.add('visible'); }
+  });
+},{threshold:0.2});
+reveals.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
 
