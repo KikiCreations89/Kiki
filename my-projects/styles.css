@@ -14,14 +14,45 @@ body {
   background-color: #f9f9f9;
 }
 
-a {
-  color: #1d4ed8;
-  text-decoration: none;
+a,
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover,
+button:hover {
+  transform: translateY(-2px);
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* ==========================
    Header
