@@ -1,45 +1,45 @@
-# Kimmy Howie – Frontend Portfolio
+# Kimmy Kitty – Frontend Portfolio
 
-Welcome to my frontend portfolio! This repository contains a curated selection of web projects built with **HTML, CSS, and JavaScript**. Each project demonstrates responsive design, mobile-first principles, and clean, maintainable code.  
+Welcome to my frontend portfolio! This repository showcases a selection of interactive web projects built with **HTML, CSS, and JavaScript**, emphasizing **responsive design, mobile-first principles, and clean code**.  
 
-I am a **Personal Support Worker (PSW) transitioning into tech**, bringing the skills I developed in care work — patience, attention to detail, empathy, and problem-solving — into my development work. These qualities help me build thoughtful, user-friendly, and accessible web applications. I am passionate about creating web experiences that are both functional and intuitive.  
+I am a **Personal Support Worker (PSW) transitioning into tech**. My experience has given me skills in **patience, attention to detail, problem-solving, and empathy**, which I bring into building thoughtful, user-friendly, and accessible web applications.
 
 ---
 
 ## 🔹 Projects
 
 ### 1. MyMerch Store
-A mobile-first redesign of a small merch store featuring responsive product cards, prices, and interactive add-to-cart functionality.  
+A mobile-first e-commerce redesign featuring responsive product cards, prices, and interactive add-to-cart functionality.
 
 - **Live Demo:** [MyMerch Store](https://kikicreations89.github.io/KikiCreations89/my-projects/mymerch.html)  
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects)  
-- **Tech:** HTML • CSS • Grid • Flexbox • JavaScript • Responsive Design  
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/mymerch.html)  
+- **Tech:** HTML • CSS • Flexbox • Grid • JavaScript • Responsive Design  
 
 ---
 
 ### 2. Responsive Blog Page
-A mobile-first blog homepage emphasizing readability, semantic HTML, and interactive features like a reading progress bar and mobile-friendly navigation.  
+A modern blog layout with a reading progress bar, mobile-friendly navigation, and fully responsive design.
 
-- **Live Demo:** [Responsive Blog Page](https://kikicreations89.github.io/KikiCreations89/my-projects/blog-page.html)  
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects)  
-- **Tech:** HTML • CSS • Flexbox • Media Queries • JavaScript • Mobile-First Design  
+- **Live Demo:** [Responsive Blog](https://kikicreations89.github.io/KikiCreations89/my-projects/blog-page.html)  
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/blog-page.html)  
+- **Tech:** HTML • CSS • Flexbox • JavaScript • Mobile-First Design  
 
 ---
 
 ### 3. Landing Page
-A clean, modern landing page showcasing hero sections, feature cards, and scroll-triggered animations.  
+A clean, modern landing page with hero section, feature cards, and scroll-triggered animations.
 
 - **Live Demo:** [Landing Page](https://kikicreations89.github.io/KikiCreations89/my-projects/landing-page.html)  
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects)  
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/landing-page.html)  
 - **Tech:** HTML • CSS • Flexbox • Grid • JavaScript • Responsive Design  
 
 ---
 
 ### 4. Flexbox Demo
-A tutorial project demonstrating core Flexbox layouts with responsive sections and interactive elements.  
+An interactive tutorial demonstrating responsive Flexbox layouts with real-time examples.
 
 - **Live Demo:** [Flexbox Demo](https://kikicreations89.github.io/KikiCreations89/my-projects/flexbox-demo.html)  
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects)  
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/flexbox-demo.html)  
 - **Tech:** HTML • CSS • Flexbox • Responsive Layout • Interactivity  
 
 ---
@@ -53,16 +53,16 @@ HTML • CSS • Flexbox • Grid • JavaScript • Responsive Design • Mobil
 ## 🚀 Explore
 
 Click the links above to view **live demos** or inspect the **source code** for each project.  
-This portfolio demonstrates practical skills as a **junior frontend developer** transitioning from care work to tech, ready for real-world projects.  
+This portfolio demonstrates practical skills as a **junior frontend developer transitioning from PSW to tech**, ready for real-world projects.  
 
 ---
 
 ## 📫 Connect
 
 - [GitHub Profile](https://github.com/KikiCreations89)  
-- [LinkedIn Profile](https://www.linkedin.com/in/kimberly-tullett-832763379)
-- [Email](kikicreations89@outlook.com)  
+- Optional: LinkedIn or Email  
 
 ---
 
-> “Combining the care and attention from my PSW background with coding skills to build thoughtful, user-friendly web applications.” 💻
+> “Combining care work experience with coding skills to create thoughtful, user-friendly web applications.” 💻
+
