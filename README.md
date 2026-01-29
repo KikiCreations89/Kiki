@@ -66,3 +66,4 @@ This portfolio demonstrates practical skills as a **junior frontend developer tr
 
 > “Combining care work experience with coding skills to create thoughtful, user-friendly web applications.” 💻
 
+
