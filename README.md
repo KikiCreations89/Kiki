@@ -1,4 +1,4 @@
-# Kimmy Kitty – Frontend Portfolio
+# Kimmy Howie – Frontend Portfolio
 
 Welcome to my frontend portfolio! This repository contains a curated selection of web projects built with **HTML, CSS, and JavaScript**. Each project demonstrates responsive design, mobile-first principles, and clean, maintainable code.  
 
@@ -69,7 +69,8 @@ This portfolio demonstrates practical skills as a **junior frontend developer** 
 ## 📫 Connect
 
 - [GitHub Profile](https://github.com/KikiCreations89)  
-- Optional: LinkedIn or Email  
+- [LinkedIn Profile](https://www.linkedin.com/in/kimberly-tullett-832763379)
+- [Email](kikicreations89@outlook.com)  
 
 ---
 
