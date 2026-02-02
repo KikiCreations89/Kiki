@@ -4,68 +4,51 @@ Welcome! 👋 I’m Kimmy Howie (GitHub: **KikiCreations89**), Frontend Portfoli
 
 I am a Personal Support Worker (PSW) transitioning into tech. My experience has given me skills in patience, attention to detail, problem-solving, and empathy, which I bring into building thoughtful, user-friendly, and accessible web applications.
 
-Explore each project below with live demos and source code links.  
+Explore each project below with live demos and source code links.
 
 ---
 
-## 🚀 Live Demo Projects
+## 🚀 My Projects (Live Demos)
 
-### 🏡 Portfolio Website
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89  
-
-A personal landing page and portfolio layout showing my projects and skills.
+### 🏠 Portfolio Website
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/Portfolio/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/Portfolio
 
 ---
 
 ### 🛍 eCommerce / Merch Page
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/mymerch/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch
-
-A responsive merchandising page built with HTML & CSS showing my layout skills.
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/eCommerce/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/eCommerce
 
 ---
 
 ### 📖 Responsive Blog Layout
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/blog-page/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/blog-page
-
-A sample blog layout demonstrating responsive design principles.
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/ResponsiveBlog/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/ResponsiveBlog
 
 ---
 
-### 💡 CSS Flexbox Tutorial Demo
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/flexbox-demo/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/flexbox-demo
-
-An example project focused on CSS Flexbox usage and layout techniques.
+### 💡 Flexbox Tutorial
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/FlexboxDemo/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/FlexboxDemo
 
 ---
 
-### 🎯 Landing Page Example
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/landing-page/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/landing-page
-
-A simple landing page project highlighting design fundamentals.
+### ✨ Landing Page Example
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/my-projects/LandingPage/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/my-projects/LandingPage
 
 ---
 
-## 📌 Tech & Skills
+## 📌 Tech Stack
 
-- **HTML5**
-- **CSS3** (Flexbox, Grid)
-- **JavaScript**
-- **Responsive Web Design**
-
-These projects demonstrate my foundational frontend skills.
+HTML • CSS • JavaScript • Flexbox • Grid • Responsive Web Design
 
 ---
 
 ## 📥 Clone & Run Locally
 
-To work with this repository locally:
-
 ```bash
 git clone https://github.com/KikiCreations89/KikiCreations89.git
-cd KikiCreations89
+cd KikiCreations89/my-projects
 # Open any project folder and open index.html in your browser
