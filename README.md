@@ -45,10 +45,3 @@ Explore each project below with live demos and source code links.
 HTML • CSS • JavaScript • Flexbox • Grid • Responsive Web Design
 
 ---
-
-## 📥 Clone & Run Locally
-
-```bash
-git clone https://github.com/KikiCreations89/KikiCreations89.git
-cd KikiCreations89/my-projects
-# Open any project folder and open index.html in your browser
