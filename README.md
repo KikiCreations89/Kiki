@@ -19,32 +19,32 @@ A personal landing page and portfolio layout showing my projects and skills.
 ---
 
 ### 🛍 eCommerce / Merch Page
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/eCommerce/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/eCommerce
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/mymerch/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch
 
 A responsive merchandising page built with HTML & CSS showing my layout skills.
 
 ---
 
 ### 📖 Responsive Blog Layout
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/ResponsiveBlog/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/ResponsiveBlog
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/blog-page/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/blog-page
 
 A sample blog layout demonstrating responsive design principles.
 
 ---
 
 ### 💡 CSS Flexbox Tutorial Demo
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/FlexboxDemo/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/FlexboxDemo
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/flexbox-demo/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/flexbox-demo
 
 An example project focused on CSS Flexbox usage and layout techniques.
 
 ---
 
 ### 🎯 Landing Page Example
-🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/LandingPage/  
-📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/LandingPage
+🔗 **Live Demo:** https://kikicreations89.github.io/KikiCreations89/landing-page/  
+📂 **Source Code:** https://github.com/KikiCreations89/KikiCreations89/tree/main/landing-page
 
 A simple landing page project highlighting design fundamentals.
 
