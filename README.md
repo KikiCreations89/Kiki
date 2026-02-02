@@ -18,7 +18,7 @@ A responsive portfolio site showcasing my projects and frontend skills.
 
 ### 2. MyMerch Store Redesign
 A mobile-first redesign of a merch store featuring responsive product cards.
-- **Live Demo:** [MyMerch Landing Page](https://kikicreations89.github.io/KikiCreations89/mymerch/)
+- **Live Demo:** [MyMerch Page](https://kikicreations89.github.io/KikiCreations89/mymerch/)
 - **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch)
 - **Tech:** HTML • CSS • Grid • Flexbox • JS • Responsive Design
 
