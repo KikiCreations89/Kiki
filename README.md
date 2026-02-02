@@ -18,8 +18,8 @@ A responsive portfolio site showcasing my projects and frontend skills.
 
 ### 2. MyMerch Store Redesign
 A mobile-first redesign of a merch store featuring responsive product cards.
-- **Live Demo:** [MyMerch Landing Page](https://kikicreations89.github.io/KikiCreations89/mymerch-page/)
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch-page)
+- **Live Demo:** [MyMerch Landing Page](https://kikicreations89.github.io/KikiCreations89/mymerch/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/mymerch)
 - **Tech:** HTML • CSS • Grid • Flexbox • JS • Responsive Design
 
 ---
@@ -32,18 +32,18 @@ A blog homepage emphasizing readability and responsive design.
 
 ---
 
-### 4. Understanding Flexbox Tutorial
+### 4. Flexbox Demo Tutorial
 A tutorial project demonstrating core Flexbox layouts.
-- **Live Demo:** [Understanding Flexbox](https://kikicreations89.github.io/KikiCreations89/understanding-flexbox/)
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/understanding-flexbox)
+- **Live Demo:** [Flexbox Demo](https://kikicreations89.github.io/KikiCreations89/flexbox-demo/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/flexbox-demo)
 - **Tech:** HTML • CSS • Flexbox • Responsive Layout
 
 ---
 
 ### 5. Sample Landing Page
 A clean, responsive landing page showcasing modern layout and calls-to-action.
-- **Live Demo:** [Sample Landing Page](https://kikicreations89.github.io/KikiCreations89/sample-landing-page/)
-- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/sample-landing-page)
+- **Live Demo:** [Landing Page](https://kikicreations89.github.io/KikiCreations89/landing-page/)
+- **Source Code:** [GitHub](https://github.com/KikiCreations89/KikiCreations89/tree/main/landing-page)
 - **Tech:** HTML • CSS • Responsive Design • Mobile-First Principles
 
 ---
